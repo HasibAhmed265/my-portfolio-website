@@ -6,6 +6,9 @@ font-family: 'Lato', sans-serif;
 .text-primary{
     color: rgb(235, 102, 7);
 }
+.short{
+    font-weight: bold;
+}
 .btn-primary{
     background-color:rgb(235, 102, 7) ;
     border-radius: 5px  ;
@@ -14,6 +17,7 @@ font-family: 'Lato', sans-serif;
     font-size: 20px;
     font-weight: bold;
     padding: 15px 35px;
+    margin: 5px;
 }
 nav{
     display: flex;
@@ -47,9 +51,37 @@ nav a{
     background-color: rgba(209, 204, 191, 0.938);
 }
 .banner{
-    margin: 30px 30px 30px 150px;
+    margin: 30px 30px 0px 150px;
     display: flex;
+    align-items: center;
 }
 .banner .profile-pic{
     width: 500px;
+}
+.banner-greeting{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.733);
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: rgba(162, 194, 194, 0.76);
+    margin: 130px 0px;
+}
+.section-title{
+    color: rgba(15, 2, 2, 0.623);
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+.section-description{
+    color: rgb(59, 38, 13);
+    text-align: center;
+    font-size: 18px;
 }
