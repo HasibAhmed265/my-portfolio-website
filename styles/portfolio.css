@@ -10,7 +10,8 @@ font-family: 'Lato', sans-serif;
     font-weight: bold;
 }
 .btn-primary{
-    background-color:rgb(235, 102, 7) ;
+    
+    background-color:rgb(92, 192, 100) ;
     border-radius: 5px  ;
     border: 0;
     color: black;
@@ -18,7 +19,20 @@ font-family: 'Lato', sans-serif;
     font-weight: bold;
     padding: 15px 35px;
     margin: 5px;
+    transition: .5s;
 }
+.btn-primary:hover{
+    transform: scale(1.3);
+    background-color: blueviolet;
+}
+
+nav ul li a:hover{
+    color: rgb(8, 8, 1);
+    transition: .4s;
+     
+   
+}
+
 nav{
     display: flex;
     justify-content: space-between;
